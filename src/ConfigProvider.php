@@ -23,13 +23,13 @@ class ConfigProvider
             'publish' => [
                 [
                     'id' => 'config',
-                    'description' => 'The config for HyperfExt\Captcha.',
+                    'description' => 'The config for hyperf-ext/captcha.',
                     'source' => __DIR__ . '/../publish/captcha.php',
                     'destination' => BASE_PATH . '/config/autoload/captcha.php',
                 ],
                 [
                     'id' => 'fonts',
-                    'description' => 'The fonts for HyperfExt\Captcha.',
+                    'description' => 'The fonts for hyperf-ext/captcha.',
                     'source' => __DIR__ . '/../publish/fonts',
                     'destination' => BASE_PATH . '/storage/fonts',
                 ],
